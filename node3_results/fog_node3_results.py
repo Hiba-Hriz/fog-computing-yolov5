@@ -6,7 +6,7 @@ import socket
 from datetime import datetime
 import os
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Stockage des résultats
 results_history = []
@@ -87,5 +87,5 @@ def clear_results():
     results_history.clear()
     return jsonify({"message": "Results history cleared"})
 
-if _name_ == '_main_':
-    app.run(host='0.0.0.0', port=5002, debug=False)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0',port=5002,debug=False)
