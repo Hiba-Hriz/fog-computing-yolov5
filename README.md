@@ -20,6 +20,7 @@ Connexion réseau entre les machines
 Installation des Dépendances
 # Cloner le repository
 git clone https://github.com/Hiba-Hriz/fog-computing-yolov5.git
+
 cd fog-computing-yolov5
 
 # Installer les dépendances
