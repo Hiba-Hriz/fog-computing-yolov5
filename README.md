@@ -19,18 +19,20 @@ Système distribué de détection d'objets avec fog computing
 ```bash
 pip install flask torch torchvision opencv-python numpy requests
 ```
-Cloner le Repository
-
-```bash
-git clone https://github.com/Hiba-Hriz/fog-computing-yolov5.git
-cd fog-computing-yolov5
-```
 Installer YOLOv5
 ```bash
 git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pip install -r requirements.txt
 ```
+
+Cloner le Repository
+
+```bash
+git clone https://github.com/Hiba-Hriz/fog-computing-yolov5.git
+cd fog-computing-yolov5
+```
+
 Dépendances Principales
 
 flask>=2.0.0
