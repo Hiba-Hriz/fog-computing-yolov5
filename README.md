@@ -19,34 +19,23 @@ Système distribué de détection d'objets avec fog computing
 ```bash
 pip install flask torch torchvision opencv-python numpy requests
 ```
-Installer YOLOv5
+Installer YOLOv5(Pour le Nœud 2)
+
+⚠️ Important : Cette étape doit être effectuée sur le PC qui hébergera le Nœud 2
+
 ```bash
 git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pip install -r requirements.txt
 ```
+Placer le fichier fog_node2_detection.py dans le dossier yolov5
 
-Cloner le Repository
-
+Configuration Réseau
+Modifiez les adresses IP dans node1_camera/fog_node1_camera.py :
 ```bash
-git clone https://github.com/Hiba-Hriz/fog-computing-yolov5.git
-cd fog-computing-yolov5
+DETECTION_NODE_URL = "http://IP_DU_NOEUD_2:5001/detect"
+RESULT_NODE_URL = "http://IP_DU_NOEUD_3:5002/receive_results"
 ```
-
-Dépendances Principales
-
-flask>=2.0.0
-
-torch>=1.7.0
-
-torchvision>=0.8.0
-
-opencv-python>=4.5.0
-
-requests>=2.25.0
-
-numpy>=1.19.0
-
 Utilisation
 Démarrage du Système
 
