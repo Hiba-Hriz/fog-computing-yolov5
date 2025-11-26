@@ -9,7 +9,7 @@ from models.experimental import attempt_load
 from utils.general import non_max_suppression, scale_boxes
 from utils.torch_utils import select_device
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 print("Loading YOLOv5 model...")
 device = select_device('cpu')
@@ -87,5 +87,5 @@ def detect():
     except Exception as e:
         return jsonify({"error": f"Processing failed: {str(e)}", "status": "error"}), 500
 
-if _name_ == '_main_':
-    app.run(host='0.0.0.0', port=5001, debug=False)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0',port=5001,debug=False)
