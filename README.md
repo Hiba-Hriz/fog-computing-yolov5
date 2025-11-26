@@ -18,4 +18,12 @@ Système distribué de détection d'objets avec fog computing
 
 ```bash
 pip install flask torch torchvision opencv-python numpy requests
+
+```markdown
+
 Cloner le Repository
+
+```bash
+git clone https://github.com/Hiba-Hriz/fog-computing-yolov5.git
+cd fog-computing-yolov5
+
