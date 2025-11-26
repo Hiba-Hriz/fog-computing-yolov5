@@ -40,16 +40,13 @@ RESULT_NODE_URL = "http://IP_DU_NOEUD_3:5002/receive_results"
 
 1-Démarrer le Nœud 3 (Résultats)
 ```bash
-cd node3_results
 python fog_node3_results.py
 ```
 2-Démarrer le Nœud 2 (Détection YOLOv5)
 ```bash
-cd node2_detection
 python fog_node2_detection.py
 ```
 3-Démarrer le Nœud 1 (Capture)
 ```bash
-cd node1_camera
 python fog_node1_camera.py
 ```
