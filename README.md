@@ -5,7 +5,6 @@ Système distribué de détection d'objets avec fog computing
 
 - 📸 **Capture** : Le Nœud 1 capture une image depuis la webcam
 - 🔍 **Détection** : Envoi au Nœud 2 pour analyse YOLOv5
-- 💾 **Stockage** : Les résultats sont sauvegardés sur le Nœud 3
 - 📡 **Consultation** : API REST pour accéder à l'historique
 
 ## Prérequis
