@@ -1,12 +1,11 @@
-# fog_node1_camera_corrected.py
 import cv2
 import requests
 import numpy as np
 import time
 import socket
 
-# Configuration CORRECTE avec l'IP trouvée
-DETECTION_NODE_URL = "http://10.26.13.188:5001/detect"  # Nœud 2 - IP corrigée
+# Configuration ip
+DETECTION_NODE_URL = "http://10.26.13.188:5001/detect"  # Nœud 2 
 RESULT_NODE_URL = "http://10.26.14.17:5002/receive_results"  # Nœud 3
 
 def test_connection():
@@ -85,7 +84,7 @@ def send_to_detection_node(image_data, filename="capture.jpg"):
 
 def main():
     print("=" * 60)
-    print("📷 NŒUD 1 - SYSTÈME DE CAPTURE (IP CORRIGÉE)")
+    print("📷 NŒUD 1 - SYSTÈME DE CAPTURE")
     print("=" * 60)
     print(f"📍 Nœud 2: 10.26.13.188:5001")
     print(f"📍 Nœud 3: 10.26.14.17:5002")
