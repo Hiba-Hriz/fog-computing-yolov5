@@ -10,7 +10,9 @@ Flux de Données
 📡 Consultation : API REST pour accéder à l'historique
 
 🚀 Installation Rapide
+
 Prérequis
+
 Python 3.8 ou supérieur
 
 Webcam fonctionnelle
