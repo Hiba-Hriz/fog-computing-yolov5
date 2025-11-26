@@ -31,17 +31,17 @@ pip install -r requirements.txt
 
 📦 Dépendances Principales
 
-flask>=2.0.0          # Serveurs web API
+flask>=2.0.0        
 
-torch>=1.7.0          # Machine Learning
+torch>=1.7.0     
 
-torchvision>=0.8.0    # Vision par ordinateur
+torchvision>=0.8.0    
 
-opencv-python>=4.5.0  # Traitement d'images
+opencv-python>=4.5.0  
 
-requests>=2.25.0      # Communication HTTP
+requests>=2.25.0     
 
-numpy>=1.19.0         Calculs scientifiques
+numpy>=1.19.0        
 
 🛠️ Utilisation
 
