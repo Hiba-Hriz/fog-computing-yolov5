@@ -27,7 +27,11 @@ git clone https://github.com/ultralytics/yolov5.git
 cd yolov5
 pip install -r requirements.txt
 ```
-Placer le fichier fog_node2_detection.py dans le dossier yolov5
+⚡ Étape clé :
+
+Placer le fichier fog_node2_detection.py à l’intérieur du dossier yolov5.
+
+Cela permet au script de trouver correctement les modules et fichiers du projet YOLOv5.
 
 ## Configuration Réseau
 Modifiez les adresses IP dans node1_camera/fog_node1_camera.py :
